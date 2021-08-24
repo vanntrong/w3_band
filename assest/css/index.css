@@ -131,7 +131,16 @@ html {
 }
 
 #content {
+    background-color: black;
 
+}
+
+#content a {
+    text-decoration-line: none;
+}
+
+#content p {
+    color: pink;
 }
 
 #content .content-section {
@@ -147,10 +156,12 @@ html {
 
 #content .section-heading {
     font-size: 30px;
+    /* color: pink; */
     font-weight: 500px;
     text-align: center;
     /* Khoảng cách giữa các chữ */
     letter-spacing: 4px;
+    color: pink;
 }
 
 #content .section-sub-heading {
@@ -183,6 +194,7 @@ html {
 
 #content .member-name {
     font-size: 15px;
+    color: pink;
 }
 
 #content .member-img {
