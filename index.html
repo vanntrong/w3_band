@@ -7,6 +7,7 @@
     <title>Van Trong</title>
     <link rel="stylesheet" href="./assest/css/index.css">
     <link rel="stylesheet" href="./assest/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./script/script.js">
 </head>
 <body>
     <div id="main">
@@ -50,7 +51,7 @@
             <!-- About section -->
             <div class="content-section" id ="about-section">
                 <a href="https://www.instagram.com/blackpinkofficial/" target="blank"><h2 style="color: pink;" class="section-heading">BLΛƆKPIИK</h2></a>
-                <p class="section-sub-heading">Blackpink in your area</p>
+                <p class="section-sub-heading">BlackPink In Your Area</p>
                 <p class="about-text">
                     Blackpink (Hangul: 블랙핑크; thường được viết cách điệu là BLACKPINK hoặc BLΛƆKPIИK) là một nhóm nhạc nữ Hàn Quốc do công ty YG Entertainment thành lập và quản lý. Nhóm gồm 4 thành viên Jisoo, Jennie, Rosé, Lisa. Blackpink chính thức ra mắt với album đĩa đơn đầu tay mang tên Square One gồm hai ca khúc "Boombayah" và "Whistle". Cả hai sau đó đã lọt vào bảng xếp hạng World Digital Songs của Billboard và bảng xếp hạng nhạc số Gaon của Hàn Quốc.
 
@@ -59,19 +60,19 @@ Blackpink là nhóm nhạc nữ Hàn Quốc có thứ hạng cao nhất trên b�
                 <div class="member-list">
                     <div class="member-item">
                         <a href="https://www.instagram.com/sooyaaa__/" target="blank"><p class="member-name">Jisoo</p></a>
-                        <a href="https://www.instagram.com/sooyaaa__/" target="blank"><img src="./assest/img/team/jisoo.jpg" alt="Image of Jisoo" class="member-img"></a>
+                        <a href="https://www.instagram.com/sooyaaa__/" target="blank"><img src="./assest/img/team/jisoo/jisoo.jpg" alt="Image-of-Jisoo" class="member-img"></a>
                     </div>
                     <div class="member-item">
                         <a href="https://www.instagram.com/lalalalisa_m/" target="blank"><p class="member-name">Lisa</p></a>
-                        <a href="https://www.instagram.com/lalalalisa_m/" target="blank"><img src="./assest/img/team/lisa.jpg" alt="Image of Jisoo" class="member-img"></a>
+                        <a href="https://www.instagram.com/lalalalisa_m/" target="blank"><img src="./assest/img/team/lisa/lisa.jpg" alt="Image of Jisoo" class="member-img"></a>
                     </div>
                     <div class="member-item">
                         <a href="https://www.instagram.com/roses_are_rosie/" target="blank"><p class="member-name">Rosé</p></a>
-                        <a href="https://www.instagram.com/roses_are_rosie/" target="blank"><img src="./assest/img/team/rose.jpg" alt="Image of Jisoo" class="member-img"></a>
+                        <a href="https://www.instagram.com/roses_are_rosie/" target="blank"><img src="./assest/img/team/rose/rose.jpg" alt="Image of Jisoo" class="member-img"></a>
                     </div>
                     <div class="member-item">
                         <a href="https://www.instagram.com/jennierubyjane/" target="blank"><p class="member-name">Jennie</p></a>
-                        <a href="https://www.instagram.com/jennierubyjane/" target="blank"><img src="./assest/img/team/jennie.jpg" alt="Image of Jisoo" class="member-img"></a>
+                        <a href="https://www.instagram.com/jennierubyjane/" target="blank"><img src="./assest/img/team/jennie/jennie.jpg" alt="Image of Jisoo" class="member-img"></a>
                     </div>
                 </div>
             </div>
@@ -95,7 +96,17 @@ Blackpink là nhóm nhạc nữ Hàn Quốc có thứ hạng cao nhất trên b�
 
         </div>
     </div>
-
+    <script>
+        function changeImageJisoo {
+        var index = 1;
+        var imgs = ["./assest/img/team/jisoo/jisoo.jpg",
+        "./assest/img/team/jisoo/jisoo2.jpg",
+        "./assest/img/team/jisoo/jisoo3.jpg",
+        "./assest/img/team/jisoo/jisoo4.jpg"]
+        document.getElementById('img-jisoo').src = imgs[index];
+        index++;
+}
+    </script>
 
 </body>
 </html>
