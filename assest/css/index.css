@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* end reset */
+
 html {
     scroll-behavior: smooth;
     /* font-family: Helvetica, Arial, sans-serif; */
@@ -17,6 +19,8 @@ html {
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn, hình vuông)
 */
+
+/* css dùng chung */
 
 #main {
 
@@ -34,6 +38,41 @@ html {
     color: #000!important;
 }
 
+.mt-8px {
+    margin-top: 8px !important;
+}
+
+.mt-16px {
+    margin-top: 16px !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+
+/* Begin header */
 #header {
     position: fixed;
     top: 0;
@@ -118,7 +157,9 @@ html {
     font-size: 20px;
     line-height: 46px;
 }
+/* end header */
 
+/* Begin slider */
 #slider {
     position: relative;
     margin-top: 46px;
@@ -143,14 +184,17 @@ html {
     font-size: 15px;
     margin-top: 15px;
 }
+/* end slider */
 
+/* begin content */
 #content {
+    
     
 }
 
-#content .about-section {
+/* #content .about-section {
     background-color: #000;
-}
+} */
 
 #content .tour-section {
     background-color: #000;
@@ -161,7 +205,12 @@ html {
 }
 
 #content p {
-    color: pink;
+    color: black;
+}
+
+/* dùng tạm */
+#content #contact p {
+    color: black;
 }
 
 #content .content-section {
@@ -182,7 +231,7 @@ html {
     text-align: center;
     /* Khoảng cách giữa các chữ */
     letter-spacing: 4px;
-    color: pink;
+    color: black;
 }
 
 #content .section-sub-heading {
@@ -192,7 +241,7 @@ html {
     /* kiểu chữ */
     font-style: italic;
     /* làm mờ */
-    opacity: 0.4; 
+    opacity: 0.8; 
 }
 
 #content .about-text {
@@ -215,7 +264,7 @@ html {
 
 #content .member-name {
     font-size: 15px;
-    color: pink;
+    color: black;
 }
 
 #content .member-img {
@@ -315,10 +364,81 @@ html {
     color: #000;
 }
 
-#footer {
-
+.contact-content {
+    margin-top: 48px;
 }
 
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc!important;
+    width: 100%;
+}
+
+.contact-form .form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    float: right;
+    padding: 10px 16px;
+    border: 1px solid #000;
+}
+
+.contact-form .form-submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.map-img {
+    width: 100%;
+}
+/* end content */
+
+/* begin footer */
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .social-list {
+    font-size: 24px;
+}
+
+#footer .social-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .social-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+/* end footer */
 .modal {
     position: fixed;
     top: 0;
