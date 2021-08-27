@@ -240,6 +240,10 @@ html {
   padding-right: 16px;
 }
 
+#content #about {
+  height: 1000px;
+}
+
 #content .section-heading {
   font-size: 30px;
   /* color: pink; */

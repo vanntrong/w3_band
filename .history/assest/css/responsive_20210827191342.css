@@ -1,0 +1,17 @@
+@media(max-width: 740px) {
+    #nav li {
+        display: block;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+}

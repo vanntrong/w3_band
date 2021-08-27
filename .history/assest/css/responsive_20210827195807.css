@@ -1,0 +1,35 @@
+@media (max-width: 740px) {
+  #nav {
+    display: block;
+  }
+
+  #nav li {
+    display: block;
+  }
+
+  #nav li a {
+    padding: 1px 24px;
+  }
+
+  #nav .subnav {
+    position: inherit;
+    background-color: #333;
+  }
+
+  #nav .subnav {
+    color: #fff;
+    padding: 5px 41px;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+}

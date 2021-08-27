@@ -98,10 +98,6 @@ html {
   position: relative;
 }
 
-#nav li:first-child {
-  display: inline-block;
-}
-
 #nav > li > a {
   color: #fff;
   text-transform: uppercase;
@@ -238,6 +234,10 @@ html {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+#content #about {
+  height: 1000px;
 }
 
 #content .section-heading {

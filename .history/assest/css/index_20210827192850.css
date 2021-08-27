@@ -98,7 +98,7 @@ html {
   position: relative;
 }
 
-#nav li:first-child {
+#nav li a:first-child {
   display: inline-block;
 }
 
@@ -238,6 +238,10 @@ html {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+#content #about {
+  height: 1000px;
 }
 
 #content .section-heading {
